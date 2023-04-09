@@ -9,7 +9,7 @@ public:
                 int k = j + 1;
                 int l = nums.size() - 1;
                 while (k < l) {
-                    //by writing below 4 statement this way it will not give runtime error
+                    
                     long long int sum = nums[i];
                     sum += nums[j];
                     sum += nums[k];
